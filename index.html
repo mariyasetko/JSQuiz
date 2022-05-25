@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+    <title>JavaScript Quiz</title>
+</head>
+
+<body class="p-3 mb-2 bg-dark text-white">
+    <div>
+        <input class="btn btn-outline-info" type="button" id="start" value ="START"/>
+    </div>
+
+    <aside>
+        <h2>Timer</h2>
+            <p>You have: <span id="timer"></span></p>
+    </aside>
+
+    <section id="questionPlaceholder">
+    </section>
+
+    <section id="highscore">
+        <h1>All done!</h1>
+            <p>Your score is: <span id="score"></span></p>
+            <input type="text" id="initials"/>
+            <button id="submit-initials">Submit</button>
+    </section>
+
+    <section id="saved-scores">
+    </section>
+
+    <section>
+        <button class="btn btn-outline-info" id="play-again">Play Again</button>
+    </section>
+
+    <script src="./Assets/js/script.js"></script>
+</body>
+</html>

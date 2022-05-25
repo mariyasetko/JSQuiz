@@ -1,0 +1,11 @@
+.block-answers {
+    display:block;
+}
+
+#highscore {
+    display:none;
+}
+
+#play-again {
+    display:none;
+}
